@@ -7,7 +7,7 @@
   - In the Dockerfile path: `docker build -t my-app-image:v1.0 .`
   - In the Dockerfile path: `docker build -t my-app-image:v2.0 .`
 - To validate the new created image, run a container with our image:
-  - `docker run -p <puerto-en-host>:<puerto-en-contenedor> <nombre-de-imagen>`
+  - `docker run -p <host-port>:<container-port> <image-name>`
 ## Step 1 - Image creation and upload with **cloudbuild.yaml**
 - Sign in to GCP:
   - `gcloud auth login`
