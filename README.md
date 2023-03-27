@@ -16,7 +16,7 @@
 - Configure the Artifact Repository:
   - `gcloud auth configure-docker [LOCATION]-docker.pkg.dev` , donde LOCATION es la región a usar
   - Example: `gcloud auth configure-docker us-central1-docker.pkg.dev`
-- Generate the  [cloudbuild.yaml](./mms-cloud-skeleton/cloudbuild.yaml) file:
+- Generate the  [cloudbuild.yaml](cloudbuild.yaml) file:
 ```
 steps:
 - name: 'gcr.io/cloud-builders/docker'
