@@ -2,6 +2,7 @@
 ## Step 0 - Docker image creation with App and its dependencies for testing
 - Create a GCP Artifacts Repo:
   - `gcloud beta artifacts repositories create my-docker-repo --repository-format=docker --location=us-central1`
+- Clone FrontEnd project that the MediaMarkt developer team has designated: [MediaMarkt Github link](https://github.com/nuwe-io/mms-cloud-skeleton)
 - Create the image with all App dependencies:
   - In the Dockerfile path: `docker build -t my-app-image:v1.0 .`
   - In the Dockerfile path: `docker build -t my-app-image:v2.0 .`
